@@ -1,4 +1,5 @@
 <img width="168" height="163" alt="logo22222" src="https://github.com/user-attachments/assets/6ae5eb48-b975-4529-96a0-9a8c2bd0a98b" />
+
 KubePot 是一款专为 Kubernetes（K8s）
 
 集群环境设计的蜜罐系统，核心目标是模拟 K8s 集群的关键组件与业务场景，吸引攻击者发起试探与攻击行为，进而收集攻击特征、追溯攻击源头、感知攻击趋势，为 K8s 集群的安全防护提供数据支撑与决策依据。
