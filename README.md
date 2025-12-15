@@ -8,7 +8,7 @@ KubePot 是一款专为 Kubernetes（K8s）
 
 - 多组件模拟：支持模拟 K8s 核心组件（如 API Server、etcd、kubelet等组件协议）、常用业务容器（如 Nginx、Redis、MySQL）及集群内部网络拓扑，高度还原真实 K8s 集群环境，提升对攻击者的吸引力。
 
-- 全链路攻击捕获：精准捕获针对 K8s 集群的各类攻击行为，包括但不限于：未授权访问、权限提升、镜像篡改、配置泄露、DDoS 攻击、恶意命令执行、敏感路径探测等。
+- 自动化部署诱饵：通过k8s暴露的secret等方法，可以诱导攻击者通过这一类查询的数据，自动化牵引到蜜罐中
 
 - 攻击数据可视化与分析：自动记录攻击源 IP、攻击时间、攻击方式、利用的漏洞、执行的命令等关键信息，支持生成攻击报告与数据统计图表，帮助安全人员快速掌握攻击态势。
 
@@ -30,17 +30,21 @@ KubePot 是一款专为 Kubernetes（K8s）
 
 🚀 效果演示
 
-kubepot 支持两种部署方式：独立容器部署（适用于快速测试）和 K8s 集群部署（适用于生产环境监测）。
+kubepot 支持蜜罐种类如下:
 
 1.Dockersock蜜罐
+支持镜像的查询，拉取，以及在容器中执行命令的捕获
 
 <img width="1960" height="828" alt="image" src="https://github.com/user-attachments/assets/e4b3046a-8638-4cd3-af54-0a639e36cbec" />
 
 <img width="2994" height="1172" alt="docker2375" src="https://github.com/user-attachments/assets/10b8fc72-d805-4cb7-a1ba-ee207aa26206" />
 
 2.Apiserver蜜罐
+支持Pod查询，Secret查询等操作
 
 3.Kubelet蜜罐
+3.1 Kubelet 10250蜜罐
+3.2 Kubelet 10255蜜罐
 
 4.Etcd蜜罐
 
