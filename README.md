@@ -38,6 +38,13 @@ kubepot 支持两种部署方式：独立容器部署（适用于快速测试）
 
 <img width="2994" height="1172" alt="docker2375" src="https://github.com/user-attachments/assets/10b8fc72-d805-4cb7-a1ba-ee207aa26206" />
 
+2.Apiserver蜜罐
+
+3.Kubelet蜜罐
+
+4.Etcd蜜罐
+
+5.
 
 🏗️ 技术架构
 
