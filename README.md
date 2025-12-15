@@ -33,7 +33,9 @@ KubePot 是一款专为 Kubernetes（K8s）
 kubepot 支持两种部署方式：独立容器部署（适用于快速测试）和 K8s 集群部署（适用于生产环境监测）。
 
 1.Dockersock蜜罐
+
 <img width="1960" height="828" alt="image" src="https://github.com/user-attachments/assets/e4b3046a-8638-4cd3-af54-0a639e36cbec" />
+
 <img width="2994" height="1172" alt="docker2375" src="https://github.com/user-attachments/assets/10b8fc72-d805-4cb7-a1ba-ee207aa26206" />
 
 
