@@ -39,7 +39,8 @@ kubepot 支持蜜罐种类如下:
 1.Dockersock蜜罐
 支持镜像的查询，拉取，以及在容器中执行命令的捕获
 
-<img width="1960" height="828" alt="image" src="https://github.com/user-attachments/assets/e4b3046a-8638-4cd3-af54-0a639e36cbec" />
+<img width="2970" height="1434" alt="image" src="https://github.com/user-attachments/assets/9702b2c6-53aa-4b2d-bf80-fdb39eeea19c" />
+
 
 <img width="2994" height="1172" alt="docker2375" src="https://github.com/user-attachments/assets/10b8fc72-d805-4cb7-a1ba-ee207aa26206" />
 
