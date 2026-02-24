@@ -1,0 +1,48 @@
+# 忽略 macOS 系统自动生成的 .DS_Store 文件（根目录+所有子目录）
+.DS_Store
+**/.DS_Store
+.DS_Store?
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ========== kubepot 项目专属忽略项 ==========
+# 日志文件
+logs/
+*.log
+*.log.*
+kubepot-*.log
+
+# 配置文件（本地自定义配置，不提交到仓库）
+config/local.yaml
+config/alert-secret.yaml
+
+# 临时文件
+tmp/
+temp/
+*.tmp
+*.swp
+*.swo
+
+# Docker/容器相关临时文件
+.dockerignore
+.history/
+.docker/config.json
+*.tar.gz  # 若有镜像打包文件需忽略
+
+# K8s 部署临时文件
+kubeconfig.yaml
+helm-values-local.yaml
+*.kubeconfig
+
+# 编译产物（若项目有 Go 编译等）
+/bin/
+/dist/
+/kubepot
+
+# IDE/编辑器配置文件
+.idea/
+.vscode/
+*.iml
+*.vscode-workspace
